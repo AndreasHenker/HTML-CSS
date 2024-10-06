@@ -126,9 +126,12 @@ h6 {font-size: 1rem; color: var(--headings);}
 
 
 .nav{
-    color: var(--fluff);
+    color: var(--navigation);
 }
 
+.nav:hover {
+    color: var(--navigationhover);
+}
 /*Format for imported symbols*/
 .material-symbols-outlined {
   font-variation-settings:
@@ -136,6 +139,11 @@ h6 {font-size: 1rem; color: var(--headings);}
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+.symbolfont {
+    color: var(--button_text);
+    font-size: larger;
 }
 
 button {
